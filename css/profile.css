@@ -1,0 +1,87 @@
+/* universal */
+body,html{
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  display: table;
+}
+/*header*/
+#header{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: rgba(61, 92, 92,0.5);
+}
+#header h1{
+  color: black;
+  font-size: 50px;
+  padding: 10px;
+}
+
+/*section*/
+#section{
+  width: 100%;
+  margin-top: 10px;
+}
+#section .wrapper{
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid gray;
+    padding: 10px 10px;
+    text-align: center;
+}
+#image {
+  padding: 10px;
+  float: left;
+  border: 1px solid gray;
+  width: 45%;
+  text-align: center;
+  background-color: rgba(255,255,255,0.5);
+}
+#biodata {
+  position: relative;
+  padding: 10px;
+  float: left;
+  border: 1px solid gray;
+  width: 45%;
+  margin-left: 5%;
+  height: 204px;
+  background-color: rgba(255,255,255,0.5);
+}
+#biodata table{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: left;
+}
+#image img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.box{
+  float: left;
+  width: 30%;
+  height: 175px;
+  text-align: center;
+  border: 1px solid gray;
+  margin: 10px;
+  color: black;
+  background-color: rgba(255,255,255,0.5);
+}
+/*penddikan*/
+#pendidikan{
+  width: 100%;
+  clear: both;
+  margin-top: 10px;
+  display: table;
+  text-align: center;
+  background-color: rgba(61, 92, 92,0.5);
+  padding: 10px 0px;
+}
