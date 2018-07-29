@@ -15,10 +15,10 @@ body,html{
   margin: 0;
   padding: 0;
   width: 100%;
-  background-color: rgba(61, 92, 92,0.5);
+  background-color: rgba(0,0,0,0.8);
 }
 #header h1{
-  color: black;
+  color: rgb(6, 130, 70);
   font-size: 50px;
   padding: 10px;
 }
@@ -40,7 +40,7 @@ body,html{
   border: 1px solid gray;
   width: 45%;
   text-align: center;
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(0,0,0,0.8);
 }
 #biodata {
   position: relative;
@@ -50,7 +50,8 @@ body,html{
   width: 45%;
   margin-left: 5%;
   height: 204px;
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(0,0,0,0.8);
+  color: white;
 }
 #biodata table{
   width: 100%;
@@ -72,8 +73,11 @@ body,html{
   text-align: center;
   border: 1px solid gray;
   margin: 10px;
+  color: white;
+  background-color: rgb(6, 130, 70);
+}
+.box h3{
   color: black;
-  background-color: rgba(255,255,255,0.5);
 }
 /*penddikan*/
 #pendidikan{
@@ -82,6 +86,6 @@ body,html{
   margin-top: 10px;
   display: table;
   text-align: center;
-  background-color: rgba(61, 92, 92,0.5);
+  background-color: rgba(0,0,0,0.8);
   padding: 10px 0px;
 }
